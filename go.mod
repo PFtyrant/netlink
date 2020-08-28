@@ -1,9 +1,8 @@
-module github.com/breezestars/netlink
+module github.com/P4Networking/netlink
 
 go 1.14
 
 require (
-	github.com/vishvananda/netlink v1.1.0
-	github.com/vishvananda/netns v0.0.0-20200520041808-52d707b772fe
-	golang.org/x/sys v0.0.0-20200625212154-ddb9806d33ae
+	github.com/vishvananda/netns v0.0.0-20200728191858-db3c7e526aae
+	golang.org/x/sys v0.0.0-20200826173525-f9321e4c35a6
 )

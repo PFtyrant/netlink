@@ -3,6 +3,9 @@ go:
   - "1.10.x"
   - "1.11.x"
   - "1.12.x"
+  - "1.13.x"
+  - "1.14.x"
+  - "1.15.x"
 before_script:
   # make sure we keep path in tact when we sudo
   - sudo sed -i -e 's/^Defaults\tsecure_path.*$//' /etc/sudoers
@@ -15,5 +18,5 @@ before_script:
   - sudo modprobe nf_conntrack_ipv6
   - sudo modprobe sch_hfsc
 install:
-  - go get github.com/vishvananda/netns
-go_import_path: github.com/vishvananda/netlink
+  - go get github.com/P4Networking/netns
+go_import_path: github.com/P4Networking/netlink
